@@ -1,0 +1,11 @@
+utilities\ExcelUtilities.class
+utilities\RandomDataUtility.class
+constants\Constant.class
+pages\AdminUserPage.class
+pages\LoginPage.class
+utilities\ScreenshotUtility.class
+pages\HomePage.class
+pages\NewsPage.class
+utilities\ExtentReportUtility.class
+utilities\WaitUtility.class
+utilities\PageUtility.class
