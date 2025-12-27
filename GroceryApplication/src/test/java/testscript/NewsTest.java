@@ -25,15 +25,9 @@ public class NewsTest extends Base {
 		LoginPage lp=new LoginPage(driver);
 		lp.enterUserName(UserNameValues).enterPassword(PasswordValues);
 		hp=lp.clickingButton();
-		
-		
 		np=hp.moreInfoNewsClick();
-		
-		
-		
 		String Newvalues=ExcelUtilities.readStringData1(0,0,"News");
 		np.createNewsClick().enterNewsValues(Newvalues).submitNews();
-		
 		boolean newalertdisp=np.isNewsAlertDisplayed();
 		Assert.assertTrue(newalertdisp, Constant.NEWSCREATE);
 	}

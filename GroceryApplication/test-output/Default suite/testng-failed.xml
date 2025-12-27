@@ -7,7 +7,7 @@
         <methods>
           <include name="verifyBrowserInitialization"/>
           <include name="driverQuit"/>
-          <include name="verifyNewsPageCanBeResetSuccessfully"/>
+          <include name="verifyNewsCanBeCreatedSuccessfully"/>
         </methods>
       </class> <!-- testscript.NewsTest -->
     </classes>

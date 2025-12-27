@@ -24,7 +24,7 @@ public class Base {
 	FileInputStream file;
 	
 	
-	@BeforeMethod(alwaysRun=true)@Parameters("browsers")// alwaystrue for grouping
+	@BeforeMethod(alwaysRun=true)@Parameters("browsers")
 	public void verifyBrowserInitialization(String browsers) throws IOException
 	{
 		pro= new Properties();
