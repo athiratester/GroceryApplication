@@ -10,8 +10,8 @@
       <class name="testscript.NewsTest">
         <methods>
           <include name="verifyBrowserInitialization"/>
-          <include name="verifyNewsCanBeSearchedSuccessfully"/>
           <include name="driverQuit"/>
+          <include name="verifyNewsPageCanBeResetSuccessfully"/>
         </methods>
       </class> <!-- testscript.NewsTest -->
     </classes>

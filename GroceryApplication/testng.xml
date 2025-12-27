@@ -7,10 +7,7 @@
     <classes>
      
       <class name="testscript.NewsTest">
-       <methods>
-                    <include name="verifyNewsPageCanBeResetSuccessfully"/>
-                </methods>
-      
+       
       </class>
       
     </classes>
